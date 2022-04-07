@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pislice"
+version = "0.1.0"
+description = ""
+authors = ["Matt Welsh <mdw@mdw.la>"]
+packages = [
+    { include = "pislice/" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<=3.9"
+Pillow = "^7.2.0"
+numpy = "^1.17.5"
+rich = "^10.4.0"
+onnxruntime = "^1.11.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
+setuptools = "57.5.0"
